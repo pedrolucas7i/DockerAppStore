@@ -16,11 +16,12 @@ def fetch_app_names():
             data = response.json()
 
             results = data.get('results', [])
+            print(results)
             for app in results:
                 app_list.append({
                     "name": app.get("name", "unknown"),
-                    "namespace": app.get("namespace", "library"),  # Pode servir como pseudo-categoria
-                    "description": app.get("short_description", "")
+                    "namespace": app.get("namespace", "library"),
+                    "description": app.get("short_description"),
                 })
 
             next_url = data.get('next')
