@@ -1,0 +1,502 @@
+[
+  {
+    "name": "memcached",
+    "namespace": "library",
+    "description": "Free & open source, high-performance, distributed memory object caching system."
+  },
+  {
+    "name": "nginx",
+    "namespace": "library",
+    "description": "Official build of Nginx."
+  },
+  {
+    "name": "busybox",
+    "namespace": "library",
+    "description": "Busybox base image."
+  },
+  {
+    "name": "alpine",
+    "namespace": "library",
+    "description": "A minimal Docker image based on Alpine Linux with a complete package index and only 5 MB in size!"
+  },
+  {
+    "name": "redis",
+    "namespace": "library",
+    "description": "Redis is the world’s fastest data platform for caching, vector search, and NoSQL databases."
+  },
+  {
+    "name": "ubuntu",
+    "namespace": "library",
+    "description": "Ubuntu is a Debian-based Linux operating system based on free software."
+  },
+  {
+    "name": "postgres",
+    "namespace": "library",
+    "description": "The PostgreSQL object-relational database system provides reliability and data integrity."
+  },
+  {
+    "name": "python",
+    "namespace": "library",
+    "description": "Python is an interpreted, interactive, object-oriented, open-source programming language."
+  },
+  {
+    "name": "node",
+    "namespace": "library",
+    "description": "Node.js is a JavaScript-based platform for server-side and networking applications."
+  },
+  {
+    "name": "httpd",
+    "namespace": "library",
+    "description": "The Apache HTTP Server Project"
+  },
+  {
+    "name": "mongo",
+    "namespace": "library",
+    "description": "MongoDB document databases provide high availability and easy scalability."
+  },
+  {
+    "name": "mysql",
+    "namespace": "library",
+    "description": "MySQL is a widely used, open-source relational database management system (RDBMS)."
+  },
+  {
+    "name": "rabbitmq",
+    "namespace": "library",
+    "description": "RabbitMQ is an open source multi-protocol messaging broker."
+  },
+  {
+    "name": "traefik",
+    "namespace": "library",
+    "description": "Traefik, The Cloud Native Edge Router"
+  },
+  {
+    "name": "docker",
+    "namespace": "library",
+    "description": "Docker in Docker!"
+  },
+  {
+    "name": "hello-world",
+    "namespace": "library",
+    "description": "Hello World! (an example of minimal Dockerization)"
+  },
+  {
+    "name": "mariadb",
+    "namespace": "library",
+    "description": "MariaDB Server is a high performing open source relational database, forked from MySQL."
+  },
+  {
+    "name": "openjdk",
+    "namespace": "library",
+    "description": "Pre-release / non-production builds of OpenJDK"
+  },
+  {
+    "name": "golang",
+    "namespace": "library",
+    "description": "Go (golang) is a general purpose, higher-level, imperative programming language."
+  },
+  {
+    "name": "registry",
+    "namespace": "library",
+    "description": "Distribution implementation for storing and distributing of container images and artifacts"
+  },
+  {
+    "name": "ruby",
+    "namespace": "library",
+    "description": "Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language."
+  },
+  {
+    "name": "wordpress",
+    "namespace": "library",
+    "description": "The WordPress rich content management system can utilize plugins, widgets, and themes."
+  },
+  {
+    "name": "debian",
+    "namespace": "library",
+    "description": "Debian is a Linux distribution that's composed entirely of free and open-source software."
+  },
+  {
+    "name": "php",
+    "namespace": "library",
+    "description": "While designed for web development, the PHP scripting language also provides general-purpose use."
+  },
+  {
+    "name": "centos",
+    "namespace": "library",
+    "description": "DEPRECATED; The official build of CentOS."
+  },
+  {
+    "name": "sonarqube",
+    "namespace": "library",
+    "description": "Official images for SonarQube, code analysis tool for code quality and security"
+  },
+  {
+    "name": "haproxy",
+    "namespace": "library",
+    "description": "HAProxy - The Reliable, High Performance TCP/HTTP Load Balancer"
+  },
+  {
+    "name": "influxdb",
+    "namespace": "library",
+    "description": "InfluxDB is the open source time series database built for real-time analytic workloads."
+  },
+  {
+    "name": "consul",
+    "namespace": "library",
+    "description": "Consul is a datacenter runtime that provides service discovery, configuration, and orchestration."
+  },
+  {
+    "name": "nextcloud",
+    "namespace": "library",
+    "description": "Nextcloud manual docker image"
+  },
+  {
+    "name": "amazonlinux",
+    "namespace": "library",
+    "description": "Amazon Linux provides a stable, secure, and high-performance execution environment for applications."
+  },
+  {
+    "name": "elasticsearch",
+    "namespace": "library",
+    "description": "Elasticsearch is a powerful open source search and analytics engine that makes data easy to explore."
+  },
+  {
+    "name": "tomcat",
+    "namespace": "library",
+    "description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies"
+  },
+  {
+    "name": "maven",
+    "namespace": "library",
+    "description": "Apache Maven is a software project management and comprehension tool."
+  },
+  {
+    "name": "caddy",
+    "namespace": "library",
+    "description": "Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go."
+  },
+  {
+    "name": "eclipse-mosquitto",
+    "namespace": "library",
+    "description": "Eclipse Mosquitto is an open source message broker which implements MQTT version 5, 3.1.1 and 3.1"
+  },
+  {
+    "name": "telegraf",
+    "namespace": "library",
+    "description": "Telegraf is an agent for collecting metrics and writing them to InfluxDB or other outputs."
+  },
+  {
+    "name": "vault",
+    "namespace": "library",
+    "description": "Vault is a tool for securely accessing secrets via a unified interface and tight access control."
+  },
+  {
+    "name": "bash",
+    "namespace": "library",
+    "description": "Bash is the GNU Project's Bourne Again SHell"
+  },
+  {
+    "name": "adminer",
+    "namespace": "library",
+    "description": "Database management in a single PHP file."
+  },
+  {
+    "name": "ghost",
+    "namespace": "library",
+    "description": "Publish by web and email newsletter, with member signups and subscription payments."
+  },
+  {
+    "name": "solr",
+    "namespace": "library",
+    "description": "Solr is the blazing-fast, open source, multi-modal search platform built on Apache Lucene."
+  },
+  {
+    "name": "kong",
+    "namespace": "library",
+    "description": "The Cloud-Native API Gateway for APIs and Microservices"
+  },
+  {
+    "name": "zookeeper",
+    "namespace": "library",
+    "description": "Apache ZooKeeper is an open-source server which enables highly reliable distributed coordination."
+  },
+  {
+    "name": "neo4j",
+    "namespace": "library",
+    "description": "Neo4j is a highly scalable, robust native graph database."
+  },
+  {
+    "name": "gradle",
+    "namespace": "library",
+    "description": "Gradle is a build tool with a focus on build automation and support for multi-language development."
+  },
+  {
+    "name": "mongo-express",
+    "namespace": "library",
+    "description": "Web-based MongoDB admin interface, written with Node.js and express"
+  },
+  {
+    "name": "perl",
+    "namespace": "library",
+    "description": "Perl is a high-level, general-purpose, interpreted, dynamic programming language."
+  },
+  {
+    "name": "buildpack-deps",
+    "namespace": "library",
+    "description": "A collection of common build dependencies used for installing various modules, e.g., gems."
+  },
+  {
+    "name": "cassandra",
+    "namespace": "library",
+    "description": "Apache Cassandra is an open-source distributed storage system."
+  },
+  {
+    "name": "kibana",
+    "namespace": "library",
+    "description": "Kibana gives shape to any kind of data — structured and unstructured — indexed in Elasticsearch."
+  },
+  {
+    "name": "nats",
+    "namespace": "library",
+    "description": "NATS is an open-source, high-performance, cloud native messaging system."
+  },
+  {
+    "name": "drupal",
+    "namespace": "library",
+    "description": "Drupal is an open source content management platform powering millions of websites and applications."
+  },
+  {
+    "name": "percona",
+    "namespace": "library",
+    "description": "Percona Server is a fork of the MySQL relational database management system created by Percona."
+  },
+  {
+    "name": "logstash",
+    "namespace": "library",
+    "description": "Logstash is a tool for managing events and logs."
+  },
+  {
+    "name": "couchdb",
+    "namespace": "library",
+    "description": "CouchDB is a database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing."
+  },
+  {
+    "name": "eclipse-temurin",
+    "namespace": "library",
+    "description": "Official Images for OpenJDK binaries built by Eclipse Temurin."
+  },
+  {
+    "name": "composer",
+    "namespace": "library",
+    "description": "Composer is a dependency manager written in and for PHP."
+  },
+  {
+    "name": "chronograf",
+    "namespace": "library",
+    "description": "Chronograf is a visualization tool for time series data in InfluxDB."
+  },
+  {
+    "name": "jenkins",
+    "namespace": "library",
+    "description": "DEPRECATED; use \"jenkins/jenkins:lts\" instead"
+  },
+  {
+    "name": "java",
+    "namespace": "library",
+    "description": "DEPRECATED; use \"openjdk\" (or other JDK implementations) instead"
+  },
+  {
+    "name": "teamspeak",
+    "namespace": "library",
+    "description": "TeamSpeak is software for quality voice communication via the Internet."
+  },
+  {
+    "name": "matomo",
+    "namespace": "library",
+    "description": "Matomo is the leading open-source analytics platform that gives you more than powerful analytics."
+  },
+  {
+    "name": "fedora",
+    "namespace": "library",
+    "description": "Official Docker builds of Fedora"
+  },
+  {
+    "name": "sentry",
+    "namespace": "library",
+    "description": "DEPRECATED; https://develop.sentry.dev/self-hosted/"
+  },
+  {
+    "name": "amazoncorretto",
+    "namespace": "library",
+    "description": "Corretto is a no-cost, production-ready distribution of the Open Java Development Kit (OpenJDK)."
+  },
+  {
+    "name": "adoptopenjdk",
+    "namespace": "library",
+    "description": "DEPRECATED; use https://hub.docker.com/_/eclipse-temurin/"
+  },
+  {
+    "name": "nats-streaming",
+    "namespace": "library",
+    "description": "DEPRECATED; An open-source, high-performance, cloud native messaging streaming system."
+  },
+  {
+    "name": "rust",
+    "namespace": "library",
+    "description": "Rust is a systems programming language focused on safety, speed, and concurrency."
+  },
+  {
+    "name": "flink",
+    "namespace": "library",
+    "description": "Apache Flink® is a powerful open-source distributed stream and batch processing framework."
+  },
+  {
+    "name": "couchbase",
+    "namespace": "library",
+    "description": "Couchbase Server is a NoSQL document database with a distributed architecture."
+  },
+  {
+    "name": "joomla",
+    "namespace": "library",
+    "description": "Joomla! is an open source content management system."
+  },
+  {
+    "name": "swarm",
+    "namespace": "library",
+    "description": "DEPRECATED; use \"docker swarm init\" instead"
+  },
+  {
+    "name": "groovy",
+    "namespace": "library",
+    "description": "Apache Groovy is a multi-faceted language for the Java platform."
+  },
+  {
+    "name": "rethinkdb",
+    "namespace": "library",
+    "description": "RethinkDB is an open-source, document database that makes it easy to build and scale realtime apps."
+  },
+  {
+    "name": "rocket.chat",
+    "namespace": "library",
+    "description": "The Complete Open Source Chat Solution"
+  },
+  {
+    "name": "phpmyadmin",
+    "namespace": "library",
+    "description": "phpMyAdmin - A web interface for MySQL and MariaDB."
+  },
+  {
+    "name": "redmine",
+    "namespace": "library",
+    "description": "Redmine is a flexible project management web application written using Ruby on Rails framework"
+  },
+  {
+    "name": "erlang",
+    "namespace": "library",
+    "description": "Erlang is a programming language used to build massively scalable systems with high availability."
+  },
+  {
+    "name": "elixir",
+    "namespace": "library",
+    "description": "Elixir is a dynamic, functional language for building scalable and maintainable applications."
+  },
+  {
+    "name": "kapacitor",
+    "namespace": "library",
+    "description": "Kapacitor is an open source framework for processing, monitoring, and alerting on time series data."
+  },
+  {
+    "name": "owncloud",
+    "namespace": "library",
+    "description": "DEPRECATED; use \"owncloud/server\" instead"
+  },
+  {
+    "name": "jruby",
+    "namespace": "library",
+    "description": "JRuby (http://www.jruby.org) is an implementation of Ruby (http://www.ruby-lang.org) on the JVM."
+  },
+  {
+    "name": "mediawiki",
+    "namespace": "library",
+    "description": "MediaWiki is a free software open source wiki package written in PHP."
+  },
+  {
+    "name": "odoo",
+    "namespace": "library",
+    "description": "Odoo (formerly known as OpenERP) is a suite of open-source business apps."
+  },
+  {
+    "name": "mono",
+    "namespace": "library",
+    "description": "DEPRECATED; Mono is an open source implementation of Microsoft's .NET Framework"
+  },
+  {
+    "name": "pypy",
+    "namespace": "library",
+    "description": "PyPy is a fast, compliant alternative implementation of the Python language."
+  },
+  {
+    "name": "jetty",
+    "namespace": "library",
+    "description": "Jetty provides a Web server and javax.servlet container."
+  },
+  {
+    "name": "clojure",
+    "namespace": "library",
+    "description": "Clojure is a dialect of Lisp that runs on the JVM."
+  },
+  {
+    "name": "oraclelinux",
+    "namespace": "library",
+    "description": "Official Docker builds of Oracle Linux."
+  },
+  {
+    "name": "arangodb",
+    "namespace": "library",
+    "description": "ArangoDB - a scalable graph database system to drive value from connected data, faster."
+  },
+  {
+    "name": "rockylinux",
+    "namespace": "library",
+    "description": "The official build of Rocky Linux."
+  },
+  {
+    "name": "xwiki",
+    "namespace": "library",
+    "description": "XWiki: The Advanced Open Source Enterprise Wiki."
+  },
+  {
+    "name": "ros",
+    "namespace": "library",
+    "description": "The Robot Operating System (ROS) is an open source project for building robot applications."
+  },
+  {
+    "name": "archlinux",
+    "namespace": "library",
+    "description": "Arch Linux is a simple, lightweight Linux distribution aimed for flexibility."
+  },
+  {
+    "name": "znc",
+    "namespace": "library",
+    "description": "ZNC - An advanced IRC bouncer"
+  },
+  {
+    "name": "swift",
+    "namespace": "library",
+    "description": "Swift is a high-performance system programming language, to learn more about Swift visit swift.org."
+  },
+  {
+    "name": "hylang",
+    "namespace": "library",
+    "description": "Hy is a Lisp dialect that translates expressions into Python's abstract syntax tree."
+  },
+  {
+    "name": "gcc",
+    "namespace": "library",
+    "description": "The GNU Compiler Collection is a compiling system that supports several languages."
+  },
+  {
+    "name": "haxe",
+    "namespace": "library",
+    "description": "Haxe is a modern, high level, static typed programming language with multiple compilation targets."
+  }
+]

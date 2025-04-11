@@ -1,0 +1,6886 @@
+[
+  {
+    "id": "library/memcached",
+    "name": "memcached",
+    "slug": "memcached",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-01-01T01:13:49.166092Z",
+    "updated_at": "2025-04-08T03:35:04.668368Z",
+    "short_description": "Free & open source, high-performance, distributed memory object caching system.",
+    "badge": "official",
+    "star_count": 2353,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm",
+      "small": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/memcached",
+    "docker_hub_url": "https://hub.docker.com/r/library/memcached",
+    "description": "Free & open source, high-performance, distributed memory object caching system."
+  },
+  {
+    "id": "library/nginx",
+    "name": "nginx",
+    "slug": "nginx",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-05T19:14:45Z",
+    "updated_at": "2025-04-08T23:52:29.812647Z",
+    "short_description": "Official build of Nginx.",
+    "badge": "official",
+    "star_count": 20743,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/nginx/live/logo-1720462242584.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/nginx/live/logo-1720462242584.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "web-servers",
+        "name": "Web Servers"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/nginx",
+    "docker_hub_url": "https://hub.docker.com/r/library/nginx",
+    "description": "Official build of Nginx."
+  },
+  {
+    "id": "library/busybox",
+    "name": "busybox",
+    "slug": "busybox",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2013-04-30T20:54:42Z",
+    "updated_at": "2025-03-19T09:50:39.379744Z",
+    "short_description": "Busybox base image.",
+    "badge": "official",
+    "star_count": 3412,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/busybox/live/logo-1720462159685.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/busybox/live/logo-1720462159685.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/busybox",
+    "docker_hub_url": "https://hub.docker.com/r/library/busybox",
+    "description": "Busybox base image."
+  },
+  {
+    "id": "library/alpine",
+    "name": "alpine",
+    "slug": "alpine",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-03-17T23:16:05.407728Z",
+    "updated_at": "2025-02-14T19:25:34.140109Z",
+    "short_description": "A minimal Docker image based on Alpine Linux with a complete package index and only 5 MB in size!",
+    "badge": "official",
+    "star_count": 11262,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/alpine/live/logo-1720462146426.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/alpine/live/logo-1720462146426.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/alpine",
+    "docker_hub_url": "https://hub.docker.com/r/library/alpine",
+    "description": "A minimal Docker image based on Alpine Linux with a complete package index and only 5 MB in size!"
+  },
+  {
+    "id": "library/redis",
+    "name": "redis",
+    "slug": "redis",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-05T20:04:50Z",
+    "updated_at": "2025-04-08T19:05:36.587407Z",
+    "short_description": "Redis is the world’s fastest data platform for caching, vector search, and NoSQL databases.",
+    "badge": "official",
+    "star_count": 13263,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/redis/live/logo-1720462263103.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/redis/live/logo-1720462263103.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/redis",
+    "docker_hub_url": "https://hub.docker.com/r/library/redis",
+    "description": "Redis is the world’s fastest data platform for caching, vector search, and NoSQL databases."
+  },
+  {
+    "id": "library/ubuntu",
+    "name": "ubuntu",
+    "slug": "ubuntu",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2013-04-30T20:54:50Z",
+    "updated_at": "2025-04-09T08:04:58.149297Z",
+    "short_description": "Ubuntu is a Debian-based Linux operating system based on free software.",
+    "badge": "official",
+    "star_count": 17537,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/ubuntu/live/logo-1720462303144.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/ubuntu/live/logo-1720462303144.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/ubuntu",
+    "docker_hub_url": "https://hub.docker.com/r/library/ubuntu",
+    "description": "Ubuntu is a Debian-based Linux operating system based on free software."
+  },
+  {
+    "id": "library/postgres",
+    "name": "postgres",
+    "slug": "postgres",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-05T20:01:35Z",
+    "updated_at": "2025-04-08T17:08:01.704224Z",
+    "short_description": "The PostgreSQL object-relational database system provides reliability and data integrity.",
+    "badge": "official",
+    "star_count": 14263,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/postgres/live/logo-1720462257907.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/postgres/live/logo-1720462257907.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/postgres",
+    "docker_hub_url": "https://hub.docker.com/r/library/postgres",
+    "description": "The PostgreSQL object-relational database system provides reliability and data integrity."
+  },
+  {
+    "id": "library/python",
+    "name": "python",
+    "slug": "python",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-24T09:53:24Z",
+    "updated_at": "2025-04-10T21:09:01.928361Z",
+    "short_description": "Python is an interpreted, interactive, object-oriented, open-source programming language.",
+    "badge": "official",
+    "star_count": 10064,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/python/live/logo-1720462259584.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/python/live/logo-1720462259584.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/python",
+    "docker_hub_url": "https://hub.docker.com/r/library/python",
+    "description": "Python is an interpreted, interactive, object-oriented, open-source programming language."
+  },
+  {
+    "id": "library/node",
+    "name": "node",
+    "slug": "node",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-05T19:19:53Z",
+    "updated_at": "2025-04-09T03:41:31.03615Z",
+    "short_description": "Node.js is a JavaScript-based platform for server-side and networking applications.",
+    "badge": "official",
+    "star_count": 13877,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/node/live/logo-1720462243432.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/node/live/logo-1720462243432.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/node",
+    "docker_hub_url": "https://hub.docker.com/r/library/node",
+    "description": "Node.js is a JavaScript-based platform for server-side and networking applications."
+  },
+  {
+    "id": "library/httpd",
+    "name": "httpd",
+    "slug": "httpd",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-11-03T20:13:35.098911Z",
+    "updated_at": "2025-04-08T05:52:39.546539Z",
+    "short_description": "The Apache HTTP Server Project",
+    "badge": "official",
+    "star_count": 4863,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/httpd/live/logo-1720462209978.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/httpd/live/logo-1720462209978.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "web-servers",
+        "name": "Web Servers"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/httpd",
+    "docker_hub_url": "https://hub.docker.com/r/library/httpd",
+    "description": "The Apache HTTP Server Project"
+  },
+  {
+    "id": "library/mongo",
+    "name": "mongo",
+    "slug": "mongo",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-06T21:51:06Z",
+    "updated_at": "2025-04-10T19:07:40.297092Z",
+    "short_description": "MongoDB document databases provide high availability and easy scalability.",
+    "badge": "official",
+    "star_count": 10549,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm",
+      "small": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/mongo",
+    "docker_hub_url": "https://hub.docker.com/r/library/mongo",
+    "description": "MongoDB document databases provide high availability and easy scalability."
+  },
+  {
+    "id": "library/mysql",
+    "name": "mysql",
+    "slug": "mysql",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-05T19:41:56Z",
+    "updated_at": "2025-04-08T03:02:18.006854Z",
+    "short_description": "MySQL is a widely used, open-source relational database management system (RDBMS).",
+    "badge": "official",
+    "star_count": 15742,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mysql/live/logo-1720462237323.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mysql/live/logo-1720462237323.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/mysql",
+    "docker_hub_url": "https://hub.docker.com/r/library/mysql",
+    "description": "MySQL is a widely used, open-source relational database management system (RDBMS)."
+  },
+  {
+    "id": "library/rabbitmq",
+    "name": "rabbitmq",
+    "slug": "rabbitmq",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-01-01T01:17:57.453727Z",
+    "updated_at": "2025-04-09T18:52:55.467327Z",
+    "short_description": "RabbitMQ is an open source multi-protocol messaging broker.",
+    "badge": "official",
+    "star_count": 5248,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rabbitmq/live/logo-1720462261491.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rabbitmq/live/logo-1720462261491.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "message-queues",
+        "name": "Message Queues"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/rabbitmq",
+    "docker_hub_url": "https://hub.docker.com/r/library/rabbitmq",
+    "description": "RabbitMQ is an open source multi-protocol messaging broker."
+  },
+  {
+    "id": "library/traefik",
+    "name": "traefik",
+    "slug": "traefik",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-04-06T18:20:12.627239Z",
+    "updated_at": "2025-04-10T21:09:52.461352Z",
+    "short_description": "Traefik, The Cloud Native Edge Router",
+    "badge": "official",
+    "star_count": 3441,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/traefik/live/logo-1720462302224.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/traefik/live/logo-1720462302224.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "networking",
+        "name": "Networking"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/traefik",
+    "docker_hub_url": "https://hub.docker.com/r/library/traefik",
+    "description": "Traefik, The Cloud Native Edge Router"
+  },
+  {
+    "id": "library/docker",
+    "name": "docker",
+    "slug": "docker",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-08-21T19:51:50.302672Z",
+    "updated_at": "2025-04-10T23:07:47.0633Z",
+    "short_description": "Docker in Docker!",
+    "badge": "official",
+    "star_count": 2686,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/docker/live/logo-1739383862625.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/docker/live/logo-1739383862625.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "developer-tools",
+        "name": "Developer Tools"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/docker",
+    "docker_hub_url": "https://hub.docker.com/r/library/docker",
+    "description": "Docker in Docker!"
+  },
+  {
+    "id": "library/hello-world",
+    "name": "hello-world",
+    "slug": "hello-world",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-07-09T22:01:44Z",
+    "updated_at": "2025-04-10T19:41:16.740133Z",
+    "short_description": "Hello World! (an example of minimal Dockerization)",
+    "badge": "official",
+    "star_count": 2430,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/hello-world/live/logo-1720462208805.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/hello-world/live/logo-1720462208805.png"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/helloworld"
+  },
+  {
+    "id": "library/mariadb",
+    "name": "mariadb",
+    "slug": "mariadb",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-11-25T23:08:03.441528Z",
+    "updated_at": "2025-04-09T09:36:35.675719Z",
+    "short_description": "MariaDB Server is a high performing open source relational database, forked from MySQL.",
+    "badge": "official",
+    "star_count": 5954,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mariadb/live/logo-1720462226239.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mariadb/live/logo-1720462226239.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/mariadb",
+    "docker_hub_url": "https://hub.docker.com/r/library/mariadb",
+    "description": "MariaDB Server is a high performing open source relational database, forked from MySQL."
+  },
+  {
+    "id": "library/openjdk",
+    "name": "openjdk",
+    "slug": "openjdk",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-08-11T22:53:09.057213Z",
+    "updated_at": "2025-04-10T21:23:59.444307Z",
+    "short_description": "Pre-release / non-production builds of OpenJDK",
+    "badge": "official",
+    "star_count": 4034,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/openjdk/live/logo-1720462246732.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/openjdk/live/logo-1720462246732.png"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/openjdk",
+    "docker_hub_url": "https://hub.docker.com/r/library/openjdk",
+    "description": "Pre-release / non-production builds of OpenJDK"
+  },
+  {
+    "id": "library/golang",
+    "name": "golang",
+    "slug": "golang",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-08-05T15:28:00.692549Z",
+    "updated_at": "2025-04-10T20:23:47.929037Z",
+    "short_description": "Go (golang) is a general purpose, higher-level, imperative programming language.",
+    "badge": "official",
+    "star_count": 5025,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/golang/live/logo-1720462202904.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/golang/live/logo-1720462202904.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/golang",
+    "docker_hub_url": "https://hub.docker.com/r/library/golang",
+    "description": "Go (golang) is a general purpose, higher-level, imperative programming language."
+  },
+  {
+    "id": "library/registry",
+    "name": "registry",
+    "slug": "registry",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-01-03T18:46:40Z",
+    "updated_at": "2025-04-03T18:38:43.75408Z",
+    "short_description": "Distribution implementation for storing and distributing of container images and artifacts",
+    "badge": "official",
+    "star_count": 4124,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "x86_64",
+        "label": "x86_64"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/registry/live/logo-1720462264832.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/registry/live/logo-1720462264832.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/registry",
+    "docker_hub_url": "https://hub.docker.com/r/library/registry",
+    "description": "Distribution implementation for storing and distributing of container images and artifacts"
+  },
+  {
+    "id": "library/ruby",
+    "name": "ruby",
+    "slug": "ruby",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-06T22:54:28Z",
+    "updated_at": "2025-04-10T05:58:04.528334Z",
+    "short_description": "Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language.",
+    "badge": "official",
+    "star_count": 2378,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/ruby/live/logo-1720462273939.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/ruby/live/logo-1720462273939.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/ruby",
+    "docker_hub_url": "https://hub.docker.com/r/library/ruby",
+    "description": "Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language."
+  },
+  {
+    "id": "library/wordpress",
+    "name": "wordpress",
+    "slug": "wordpress",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-05T19:59:25Z",
+    "updated_at": "2025-04-11T22:23:52.398794Z",
+    "short_description": "The WordPress rich content management system can utilize plugins, widgets, and themes.",
+    "badge": "official",
+    "star_count": 5754,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/wordpress/live/logo-1720462319468.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/wordpress/live/logo-1720462319468.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "content-management-system",
+        "name": "Content Management System"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/wordpress",
+    "docker_hub_url": "https://hub.docker.com/r/library/wordpress",
+    "description": "The WordPress rich content management system can utilize plugins, widgets, and themes."
+  },
+  {
+    "id": "library/debian",
+    "name": "debian",
+    "slug": "debian",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-01-03T19:39:02Z",
+    "updated_at": "2025-04-08T03:31:39.984386Z",
+    "short_description": "Debian is a Linux distribution that's composed entirely of free and open-source software.",
+    "badge": "official",
+    "star_count": 5181,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "x86_64",
+        "label": "x86_64"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/debian/live/logo-1720462179484.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/debian/live/logo-1720462179484.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/debian",
+    "docker_hub_url": "https://hub.docker.com/r/library/debian",
+    "description": "Debian is a Linux distribution that's composed entirely of free and open-source software."
+  },
+  {
+    "id": "library/php",
+    "name": "php",
+    "slug": "php",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-09-04T19:15:45.540234Z",
+    "updated_at": "2025-04-11T23:00:33.981831Z",
+    "short_description": "While designed for web development, the PHP scripting language also provides general-purpose use.",
+    "badge": "official",
+    "star_count": 7728,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/php/live/logo-1720462253526.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/php/live/logo-1720462253526.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/php",
+    "docker_hub_url": "https://hub.docker.com/r/library/php",
+    "description": "While designed for web development, the PHP scripting language also provides general-purpose use."
+  },
+  {
+    "id": "library/centos",
+    "name": "centos",
+    "slug": "centos",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2013-04-30T20:54:08Z",
+    "updated_at": "2022-12-09T19:13:54.287062Z",
+    "short_description": "DEPRECATED; The official build of CentOS.",
+    "badge": "official",
+    "star_count": 7773,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/centos/live/logo-1720462161853.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/centos/live/logo-1720462161853.png"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/centos",
+    "docker_hub_url": "https://hub.docker.com/r/library/centos",
+    "description": "DEPRECATED; The official build of CentOS."
+  },
+  {
+    "id": "library/sonarqube",
+    "name": "sonarqube",
+    "slug": "sonarqube",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-05-20T22:20:50.835749Z",
+    "updated_at": "2025-04-09T17:52:40.591591Z",
+    "short_description": "Official images for SonarQube, code analysis tool for code quality and security",
+    "badge": "official",
+    "star_count": 2493,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/sonarqube/live/logo-1738080662182.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/sonarqube/live/logo-1738080662182.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "integration-and-delivery",
+        "name": "Integration & Delivery"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/sonarqube",
+    "docker_hub_url": "https://hub.docker.com/r/library/sonarqube",
+    "description": "Official images for SonarQube, code analysis tool for code quality and security"
+  },
+  {
+    "id": "library/haproxy",
+    "name": "haproxy",
+    "slug": "haproxy",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-12-29T23:15:01.619972Z",
+    "updated_at": "2025-04-11T21:56:55.930823Z",
+    "short_description": "HAProxy - The Reliable, High Performance TCP/HTTP Load Balancer",
+    "badge": "official",
+    "star_count": 1972,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/haproxy/live/logo-1720462205614.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/haproxy/live/logo-1720462205614.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "web-servers",
+        "name": "Web Servers"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/haproxy",
+    "docker_hub_url": "https://hub.docker.com/r/library/haproxy",
+    "description": "HAProxy - The Reliable, High Performance TCP/HTTP Load Balancer"
+  },
+  {
+    "id": "library/influxdb",
+    "name": "influxdb",
+    "slug": "influxdb",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-05-12T16:48:37.189201Z",
+    "updated_at": "2025-04-08T14:20:20.305004Z",
+    "short_description": "InfluxDB is the open source time series database built for real-time analytic workloads.",
+    "badge": "official",
+    "star_count": 1960,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/influxdb/live/logo-1720462212781.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/influxdb/live/logo-1720462212781.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/influxdb",
+    "docker_hub_url": "https://hub.docker.com/r/library/influxdb",
+    "description": "InfluxDB is the open source time series database built for real-time analytic workloads."
+  },
+  {
+    "id": "library/consul",
+    "name": "consul",
+    "slug": "consul",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-04-25T22:06:35.106828Z",
+    "updated_at": "2024-03-16T08:17:23.033366Z",
+    "short_description": "Consul is a datacenter runtime that provides service discovery, configuration, and orchestration.",
+    "badge": "official",
+    "star_count": 1455,
+    "pull_count": "1B+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/consul/live/logo-1720462171784.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/consul/live/logo-1720462171784.png"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/consul",
+    "docker_hub_url": "https://hub.docker.com/r/library/consul",
+    "description": "Consul is a datacenter runtime that provides service discovery, configuration, and orchestration."
+  },
+  {
+    "id": "library/nextcloud",
+    "name": "nextcloud",
+    "slug": "nextcloud",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-12-30T18:54:29.826116Z",
+    "updated_at": "2025-04-11T20:51:18.859676Z",
+    "short_description": "Nextcloud manual docker image",
+    "badge": "official",
+    "star_count": 4294,
+    "pull_count": "500M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm",
+      "small": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "content-management-system",
+        "name": "Content Management System"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/nextcloud",
+    "docker_hub_url": "https://hub.docker.com/r/library/nextcloud",
+    "description": "Nextcloud manual docker image"
+  },
+  {
+    "id": "library/amazonlinux",
+    "name": "amazonlinux",
+    "slug": "amazonlinux",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-11-16T00:39:06.98109Z",
+    "updated_at": "2025-04-02T02:30:19.22847Z",
+    "short_description": "Amazon Linux provides a stable, secure, and high-performance execution environment for applications.",
+    "badge": "official",
+    "star_count": 1462,
+    "pull_count": "500M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/amazonlinux/live/logo-1737533413898.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/amazonlinux/live/logo-1737533413898.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/amazonlinux",
+    "docker_hub_url": "https://hub.docker.com/r/library/amazonlinux",
+    "description": "Amazon Linux provides a stable, secure, and high-performance execution environment for applications."
+  },
+  {
+    "id": "library/elasticsearch",
+    "name": "elasticsearch",
+    "slug": "elasticsearch",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-02-06T18:31:40.822107Z",
+    "updated_at": "2025-04-09T09:25:21.705061Z",
+    "short_description": "Elasticsearch is a powerful open source search and analytics engine that makes data easy to explore.",
+    "badge": "official",
+    "star_count": 6508,
+    "pull_count": "500M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/elasticsearch/live/logo-1744135840564.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/elasticsearch/live/logo-1744135840564.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/elasticsearch",
+    "docker_hub_url": "https://hub.docker.com/r/library/elasticsearch",
+    "description": "Elasticsearch is a powerful open source search and analytics engine that makes data easy to explore."
+  },
+  {
+    "id": "library/tomcat",
+    "name": "tomcat",
+    "slug": "tomcat",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-10-27T17:28:47.715247Z",
+    "updated_at": "2025-04-10T08:32:29.347055Z",
+    "short_description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies",
+    "badge": "official",
+    "star_count": 3730,
+    "pull_count": "500M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/tomcat/live/logo-1720462300603.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/tomcat/live/logo-1720462300603.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "web-servers",
+        "name": "Web Servers"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/tomcat",
+    "docker_hub_url": "https://hub.docker.com/r/library/tomcat",
+    "description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies"
+  },
+  {
+    "id": "library/maven",
+    "name": "maven",
+    "slug": "maven",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-11-03T17:52:01.032704Z",
+    "updated_at": "2025-04-10T02:31:58.63489Z",
+    "short_description": "Apache Maven is a software project management and comprehension tool.",
+    "badge": "official",
+    "star_count": 1624,
+    "pull_count": "500M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/maven/live/logo-1720462228612.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/maven/live/logo-1720462228612.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/maven",
+    "docker_hub_url": "https://hub.docker.com/r/library/maven",
+    "description": "Apache Maven is a software project management and comprehension tool."
+  },
+  {
+    "id": "library/caddy",
+    "name": "caddy",
+    "slug": "caddy",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2020-04-14T00:52:20.768622Z",
+    "updated_at": "2025-04-10T18:52:45.69583Z",
+    "short_description": "Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.",
+    "badge": "official",
+    "star_count": 866,
+    "pull_count": "500M+",
+    "operating_systems": [
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/caddy/live/logo.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/caddy/live/logo.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "web-servers",
+        "name": "Web Servers"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/caddy",
+    "docker_hub_url": "https://hub.docker.com/r/library/caddy",
+    "description": "Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go."
+  },
+  {
+    "id": "library/eclipse-mosquitto",
+    "name": "eclipse-mosquitto",
+    "slug": "eclipse-mosquitto",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-12-13T21:14:20.875719Z",
+    "updated_at": "2025-03-06T19:52:54.237883Z",
+    "short_description": "Eclipse Mosquitto is an open source message broker which implements MQTT version 5, 3.1.1 and 3.1",
+    "badge": "official",
+    "star_count": 1322,
+    "pull_count": "500M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/eclipse-mosquitto/live/logo-1720462183778.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/eclipse-mosquitto/live/logo-1720462183778.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "internet-of-things",
+        "name": "Internet of Things"
+      },
+      {
+        "slug": "message-queues",
+        "name": "Message Queues"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/eclipsemosquitto"
+  },
+  {
+    "id": "library/telegraf",
+    "name": "telegraf",
+    "slug": "telegraf",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-05-12T16:50:53.658088Z",
+    "updated_at": "2025-04-08T21:10:33.39854Z",
+    "short_description": "Telegraf is an agent for collecting metrics and writing them to InfluxDB or other outputs.",
+    "badge": "official",
+    "star_count": 708,
+    "pull_count": "500M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/telegraf/live/logo-1728097825369.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/telegraf/live/logo-1728097825369.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "monitoring-and-observability",
+        "name": "Monitoring & Observability"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/telegraf",
+    "docker_hub_url": "https://hub.docker.com/r/library/telegraf",
+    "description": "Telegraf is an agent for collecting metrics and writing them to InfluxDB or other outputs."
+  },
+  {
+    "id": "library/vault",
+    "name": "vault",
+    "slug": "vault",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-07-21T20:07:02.407935Z",
+    "updated_at": "2024-03-16T09:21:40.587196Z",
+    "short_description": "Vault is a tool for securely accessing secrets via a unified interface and tight access control.",
+    "badge": "official",
+    "star_count": 1155,
+    "pull_count": "500M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/vault/live/logo-1720462317417.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/vault/live/logo-1720462317417.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "security",
+        "name": "Security"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/vault",
+    "docker_hub_url": "https://hub.docker.com/r/library/vault",
+    "description": "Vault is a tool for securely accessing secrets via a unified interface and tight access control."
+  },
+  {
+    "id": "library/bash",
+    "name": "bash",
+    "slug": "bash",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-10-18T23:34:52.964422Z",
+    "updated_at": "2025-04-09T00:02:39.110184Z",
+    "short_description": "Bash is the GNU Project's Bourne Again SHell",
+    "badge": "official",
+    "star_count": 700,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/bash/live/logo-1720462156712.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/bash/live/logo-1720462156712.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "developer-tools",
+        "name": "Developer Tools"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/bash",
+    "docker_hub_url": "https://hub.docker.com/r/library/bash",
+    "description": "Bash is the GNU Project's Bourne Again SHell"
+  },
+  {
+    "id": "library/adminer",
+    "name": "adminer",
+    "slug": "adminer",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-01-27T21:45:14.651335Z",
+    "updated_at": "2025-04-11T21:49:48.891383Z",
+    "short_description": "Database management in a single PHP file.",
+    "badge": "official",
+    "star_count": 943,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/adminer/live/logo-1720462143259.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/adminer/live/logo-1720462143259.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/adminer",
+    "docker_hub_url": "https://hub.docker.com/r/library/adminer",
+    "description": "Database management in a single PHP file."
+  },
+  {
+    "id": "library/ghost",
+    "name": "ghost",
+    "slug": "ghost",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-02-23T20:54:08.964251Z",
+    "updated_at": "2025-04-08T21:45:25.680586Z",
+    "short_description": "Publish by web and email newsletter, with member signups and subscription payments.",
+    "badge": "official",
+    "star_count": 1779,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/ghost/live/logo-1722384580757.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/ghost/live/logo-1722384580757.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "content-management-system",
+        "name": "Content Management System"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/ghost",
+    "docker_hub_url": "https://hub.docker.com/r/library/ghost",
+    "description": "Publish by web and email newsletter, with member signups and subscription payments."
+  },
+  {
+    "id": "library/solr",
+    "name": "solr",
+    "slug": "solr",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-10-16T23:15:45.859085Z",
+    "updated_at": "2025-04-09T16:59:00.525576Z",
+    "short_description": "Solr is the blazing-fast, open source, multi-modal search platform built on Apache Lucene.",
+    "badge": "official",
+    "star_count": 999,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/solr/live/logo-1727432042104.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/solr/live/logo-1727432042104.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/solr",
+    "docker_hub_url": "https://hub.docker.com/r/library/solr",
+    "description": "Solr is the blazing-fast, open source, multi-modal search platform built on Apache Lucene."
+  },
+  {
+    "id": "library/kong",
+    "name": "kong",
+    "slug": "kong",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-08-31T21:12:34.623235Z",
+    "updated_at": "2025-04-09T11:51:45.857434Z",
+    "short_description": "The Cloud-Native API Gateway for APIs and Microservices",
+    "badge": "official",
+    "star_count": 820,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/kong/live/logo-1720462221080.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/kong/live/logo-1720462221080.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "api-management",
+        "name": "API Management"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/kong",
+    "docker_hub_url": "https://hub.docker.com/r/library/kong",
+    "description": "The Cloud-Native API Gateway for APIs and Microservices"
+  },
+  {
+    "id": "library/zookeeper",
+    "name": "zookeeper",
+    "slug": "zookeeper",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-09-12T21:02:05.855821Z",
+    "updated_at": "2025-04-09T17:59:30.699006Z",
+    "short_description": "Apache ZooKeeper is an open-source server which enables highly reliable distributed coordination.",
+    "badge": "official",
+    "star_count": 1480,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/zookeeper/live/logo-1720462324554.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/zookeeper/live/logo-1720462324554.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/zookeeper",
+    "docker_hub_url": "https://hub.docker.com/r/library/zookeeper",
+    "description": "Apache ZooKeeper is an open-source server which enables highly reliable distributed coordination."
+  },
+  {
+    "id": "library/neo4j",
+    "name": "neo4j",
+    "slug": "neo4j",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-10-20T21:03:16.367052Z",
+    "updated_at": "2025-04-09T17:44:24.820226Z",
+    "short_description": "Neo4j is a highly scalable, robust native graph database.",
+    "badge": "official",
+    "star_count": 1318,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/neo4j/live/logo-1720462240295.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/neo4j/live/logo-1720462240295.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/neo4j",
+    "docker_hub_url": "https://hub.docker.com/r/library/neo4j",
+    "description": "Neo4j is a highly scalable, robust native graph database."
+  },
+  {
+    "id": "library/gradle",
+    "name": "gradle",
+    "slug": "gradle",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-03-23T18:41:46.707682Z",
+    "updated_at": "2025-04-09T17:25:45.64282Z",
+    "short_description": "Gradle is a build tool with a focus on build automation and support for multi-language development.",
+    "badge": "official",
+    "star_count": 609,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/gradle/live/logo-1720462203779.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/gradle/live/logo-1720462203779.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "developer-tools",
+        "name": "Developer Tools"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/gradle",
+    "docker_hub_url": "https://hub.docker.com/r/library/gradle",
+    "description": "Gradle is a build tool with a focus on build automation and support for multi-language development."
+  },
+  {
+    "id": "library/mongo-express",
+    "name": "mongo-express",
+    "slug": "mongo-express",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-04-06T17:44:46.039Z",
+    "updated_at": "2024-11-21T01:29:49.929897Z",
+    "short_description": "Web-based MongoDB admin interface, written with Node.js and express",
+    "badge": "official",
+    "star_count": 1492,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mongo-express/live/logo.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mongo-express/live/logo.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/mongoexpress"
+  },
+  {
+    "id": "library/perl",
+    "name": "perl",
+    "slug": "perl",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-07-08T22:08:41Z",
+    "updated_at": "2025-04-09T16:39:55.631073Z",
+    "short_description": "Perl is a high-level, general-purpose, interpreted, dynamic programming language.",
+    "badge": "official",
+    "star_count": 467,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/perl/live/logo-1720462250697.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/perl/live/logo-1720462250697.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/perl",
+    "docker_hub_url": "https://hub.docker.com/r/library/perl",
+    "description": "Perl is a high-level, general-purpose, interpreted, dynamic programming language."
+  },
+  {
+    "id": "library/buildpack-deps",
+    "name": "buildpack-deps",
+    "slug": "buildpack-deps",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-05-31T01:41:12Z",
+    "updated_at": "2025-04-10T01:19:44.335834Z",
+    "short_description": "A collection of common build dependencies used for installing various modules, e.g., gems.",
+    "badge": "official",
+    "star_count": 682,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/buildpack-deps/live/logo-1720462158809.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/buildpack-deps/live/logo-1720462158809.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "developer-tools",
+        "name": "Developer Tools"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/buildpackdeps"
+  },
+  {
+    "id": "library/cassandra",
+    "name": "cassandra",
+    "slug": "cassandra",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-05-01T20:03:40.503921Z",
+    "updated_at": "2025-04-11T00:39:57.383957Z",
+    "short_description": "Apache Cassandra is an open-source distributed storage system.",
+    "badge": "official",
+    "star_count": 1576,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/cassandra/live/logo-1720462160940.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/cassandra/live/logo-1720462160940.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/cassandra",
+    "docker_hub_url": "https://hub.docker.com/r/library/cassandra",
+    "description": "Apache Cassandra is an open-source distributed storage system."
+  },
+  {
+    "id": "library/kibana",
+    "name": "kibana",
+    "slug": "kibana",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-06-09T20:31:08.808541Z",
+    "updated_at": "2025-04-09T11:11:23.486865Z",
+    "short_description": "Kibana gives shape to any kind of data — structured and unstructured — indexed in Elasticsearch.",
+    "badge": "official",
+    "star_count": 2795,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/kibana/live/logo-1740168662268.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/kibana/live/logo-1740168662268.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "monitoring-and-observability",
+        "name": "Monitoring & Observability"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/kibana",
+    "docker_hub_url": "https://hub.docker.com/r/library/kibana",
+    "description": "Kibana gives shape to any kind of data — structured and unstructured — indexed in Elasticsearch."
+  },
+  {
+    "id": "library/nats",
+    "name": "nats",
+    "slug": "nats",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-08-11T23:44:41.247743Z",
+    "updated_at": "2025-04-10T20:57:00.234501Z",
+    "short_description": "NATS is an open-source, high-performance, cloud native messaging system.",
+    "badge": "official",
+    "star_count": 504,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/nats/live/logo-1720462239393.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/nats/live/logo-1720462239393.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "message-queues",
+        "name": "Message Queues"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/nats",
+    "docker_hub_url": "https://hub.docker.com/r/library/nats",
+    "description": "NATS is an open-source, high-performance, cloud native messaging system."
+  },
+  {
+    "id": "library/drupal",
+    "name": "drupal",
+    "slug": "drupal",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-04-28T23:45:55.880243Z",
+    "updated_at": "2025-04-11T23:06:54.958119Z",
+    "short_description": "Drupal is an open source content management platform powering millions of websites and applications.",
+    "badge": "official",
+    "star_count": 1068,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/drupal/live/logo-1720462182785.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/drupal/live/logo-1720462182785.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "content-management-system",
+        "name": "Content Management System"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/drupal",
+    "docker_hub_url": "https://hub.docker.com/r/library/drupal",
+    "description": "Drupal is an open source content management platform powering millions of websites and applications."
+  },
+  {
+    "id": "library/percona",
+    "name": "percona",
+    "slug": "percona",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-02-23T23:00:36.787103Z",
+    "updated_at": "2025-04-01T20:10:27.612342Z",
+    "short_description": "Percona Server is a fork of the MySQL relational database management system created by Percona.",
+    "badge": "official",
+    "star_count": 641,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/percona/live/logo-1720462249492.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/percona/live/logo-1720462249492.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/percona",
+    "docker_hub_url": "https://hub.docker.com/r/library/percona",
+    "description": "Percona Server is a fork of the MySQL relational database management system created by Percona."
+  },
+  {
+    "id": "library/logstash",
+    "name": "logstash",
+    "slug": "logstash",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-03-05T00:12:38.875879Z",
+    "updated_at": "2025-04-09T09:53:21.994272Z",
+    "short_description": "Logstash is a tool for managing events and logs.",
+    "badge": "official",
+    "star_count": 2246,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/logstash/live/logo-1720462224560.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/logstash/live/logo-1720462224560.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "monitoring-and-observability",
+        "name": "Monitoring & Observability"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/logstash",
+    "docker_hub_url": "https://hub.docker.com/r/library/logstash",
+    "description": "Logstash is a tool for managing events and logs."
+  },
+  {
+    "id": "library/couchdb",
+    "name": "couchdb",
+    "slug": "couchdb",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-02-25T01:08:56.325238Z",
+    "updated_at": "2025-04-08T07:33:47.199324Z",
+    "short_description": "CouchDB is a database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing.",
+    "badge": "official",
+    "star_count": 575,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/couchdb/live/logo-1736273402544.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/couchdb/live/logo-1736273402544.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/couchdb",
+    "docker_hub_url": "https://hub.docker.com/r/library/couchdb",
+    "description": "CouchDB is a database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing."
+  },
+  {
+    "id": "library/eclipse-temurin",
+    "name": "eclipse-temurin",
+    "slug": "eclipse-temurin",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2021-08-13T21:48:42.393375Z",
+    "updated_at": "2025-04-10T21:16:25.626089Z",
+    "short_description": "Official Images for OpenJDK binaries built by Eclipse Temurin.",
+    "badge": "official",
+    "star_count": 648,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/eclipse-temurin/live/logo-1733839804697.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/eclipse-temurin/live/logo-1733839804697.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/eclipsetemurin"
+  },
+  {
+    "id": "library/composer",
+    "name": "composer",
+    "slug": "composer",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-11-24T00:03:48.522342Z",
+    "updated_at": "2025-04-11T22:14:15.774514Z",
+    "short_description": "Composer is a dependency manager written in and for PHP.",
+    "badge": "official",
+    "star_count": 1105,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/composer/live/logo-1720462167458.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/composer/live/logo-1720462167458.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "developer-tools",
+        "name": "Developer Tools"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/composer",
+    "docker_hub_url": "https://hub.docker.com/r/library/composer",
+    "description": "Composer is a dependency manager written in and for PHP."
+  },
+  {
+    "id": "library/chronograf",
+    "name": "chronograf",
+    "slug": "chronograf",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-05-12T16:47:41.108981Z",
+    "updated_at": "2025-04-08T18:38:19.495809Z",
+    "short_description": "Chronograf is a visualization tool for time series data in InfluxDB.",
+    "badge": "official",
+    "star_count": 366,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/chronograf/live/logo-1738000742689.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/chronograf/live/logo-1738000742689.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "monitoring-and-observability",
+        "name": "Monitoring & Observability"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/chronograf",
+    "docker_hub_url": "https://hub.docker.com/r/library/chronograf",
+    "description": "Chronograf is a visualization tool for time series data in InfluxDB."
+  },
+  {
+    "id": "library/jenkins",
+    "name": "jenkins",
+    "slug": "jenkins",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-07-22T21:45:39.381066Z",
+    "updated_at": "2018-07-17T16:47:45.266614Z",
+    "short_description": "DEPRECATED; use \"jenkins/jenkins:lts\" instead",
+    "badge": "official",
+    "star_count": 5702,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm",
+      "small": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/jenkins",
+    "docker_hub_url": "https://hub.docker.com/r/library/jenkins",
+    "description": "DEPRECATED; use \"jenkins/jenkins:lts\" instead"
+  },
+  {
+    "id": "library/java",
+    "name": "java",
+    "slug": "java",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-06-06T18:28:17Z",
+    "updated_at": "2017-03-23T17:58:27.550146Z",
+    "short_description": "DEPRECATED; use \"openjdk\" (or other JDK implementations) instead",
+    "badge": "official",
+    "star_count": 2007,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm",
+      "small": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/java",
+    "docker_hub_url": "https://hub.docker.com/r/library/java",
+    "description": "DEPRECATED; use \"openjdk\" (or other JDK implementations) instead"
+  },
+  {
+    "id": "library/teamspeak",
+    "name": "teamspeak",
+    "slug": "teamspeak",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2018-02-02T19:44:00.685157Z",
+    "updated_at": "2025-02-14T21:49:13.34522Z",
+    "short_description": "TeamSpeak is software for quality voice communication via the Internet.",
+    "badge": "official",
+    "star_count": 578,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/teamspeak/live/logo-1720462298949.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/teamspeak/live/logo-1720462298949.png"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/teamspeak",
+    "docker_hub_url": "https://hub.docker.com/r/library/teamspeak",
+    "description": "TeamSpeak is software for quality voice communication via the Internet."
+  },
+  {
+    "id": "library/matomo",
+    "name": "matomo",
+    "slug": "matomo",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2018-04-25T18:42:57.694802Z",
+    "updated_at": "2025-04-11T21:13:50.078477Z",
+    "short_description": "Matomo is the leading open-source analytics platform that gives you more than powerful analytics.",
+    "badge": "official",
+    "star_count": 346,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/matomo/live/logo-1720462227408.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/matomo/live/logo-1720462227408.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "monitoring-and-observability",
+        "name": "Monitoring & Observability"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/matomo",
+    "docker_hub_url": "https://hub.docker.com/r/library/matomo",
+    "description": "Matomo is the leading open-source analytics platform that gives you more than powerful analytics."
+  },
+  {
+    "id": "library/fedora",
+    "name": "fedora",
+    "slug": "fedora",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-01-03T18:37:05Z",
+    "updated_at": "2025-03-27T19:05:51.80378Z",
+    "short_description": "Official Docker builds of Fedora",
+    "badge": "official",
+    "star_count": 1247,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/fedora/live/logo.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/fedora/live/logo.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/fedora",
+    "docker_hub_url": "https://hub.docker.com/r/library/fedora",
+    "description": "Official Docker builds of Fedora"
+  },
+  {
+    "id": "library/sentry",
+    "name": "sentry",
+    "slug": "sentry",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-11-15T08:14:25.988256Z",
+    "updated_at": "2019-10-19T09:22:56.635131Z",
+    "short_description": "DEPRECATED; https://develop.sentry.dev/self-hosted/",
+    "badge": "official",
+    "star_count": 659,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm",
+      "small": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/sentry",
+    "docker_hub_url": "https://hub.docker.com/r/library/sentry",
+    "description": "DEPRECATED; https://develop.sentry.dev/self-hosted/"
+  },
+  {
+    "id": "library/amazoncorretto",
+    "name": "amazoncorretto",
+    "slug": "amazoncorretto",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2019-01-09T05:42:08.745828Z",
+    "updated_at": "2025-04-02T03:49:52.463397Z",
+    "short_description": "Corretto is a no-cost, production-ready distribution of the Open Java Development Kit (OpenJDK).",
+    "badge": "official",
+    "star_count": 447,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/amazoncorretto/live/logo-1720462148162.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/amazoncorretto/live/logo-1720462148162.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/amazoncorretto",
+    "docker_hub_url": "https://hub.docker.com/r/library/amazoncorretto",
+    "description": "Corretto is a no-cost, production-ready distribution of the Open Java Development Kit (OpenJDK)."
+  },
+  {
+    "id": "library/adoptopenjdk",
+    "name": "adoptopenjdk",
+    "slug": "adoptopenjdk",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2019-05-24T23:42:23.763201Z",
+    "updated_at": "2021-10-06T18:00:36.296631Z",
+    "short_description": "DEPRECATED; use https://hub.docker.com/_/eclipse-temurin/",
+    "badge": "official",
+    "star_count": 377,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      }
+    ],
+    "logo_url": {
+      "large": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm",
+      "small": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/adoptopenjdk",
+    "docker_hub_url": "https://hub.docker.com/r/library/adoptopenjdk",
+    "description": "DEPRECATED; use https://hub.docker.com/_/eclipse-temurin/"
+  },
+  {
+    "id": "library/nats-streaming",
+    "name": "nats-streaming",
+    "slug": "nats-streaming",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-10-04T22:13:55.414366Z",
+    "updated_at": "2024-06-12T19:29:11.456403Z",
+    "short_description": "DEPRECATED; An open-source, high-performance, cloud native messaging streaming system.",
+    "badge": "official",
+    "star_count": 167,
+    "pull_count": "100M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/nats-streaming/live/logo-1720462238449.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/nats-streaming/live/logo-1720462238449.png"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/natsstreaming"
+  },
+  {
+    "id": "library/rust",
+    "name": "rust",
+    "slug": "rust",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-08-10T21:45:13.885626Z",
+    "updated_at": "2025-04-09T05:44:48.767102Z",
+    "short_description": "Rust is a systems programming language focused on safety, speed, and concurrency.",
+    "badge": "official",
+    "star_count": 1074,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rust/live/logo-1720462274888.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rust/live/logo-1720462274888.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/rust",
+    "docker_hub_url": "https://hub.docker.com/r/library/rust",
+    "description": "Rust is a systems programming language focused on safety, speed, and concurrency."
+  },
+  {
+    "id": "library/flink",
+    "name": "flink",
+    "slug": "flink",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-05-09T20:28:32.125909Z",
+    "updated_at": "2025-04-09T16:02:10.311339Z",
+    "short_description": "Apache Flink® is a powerful open-source distributed stream and batch processing framework.",
+    "badge": "official",
+    "star_count": 441,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/flink/live/logo-1720462194091.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/flink/live/logo-1720462194091.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "data-science",
+        "name": "Data Science"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/flink",
+    "docker_hub_url": "https://hub.docker.com/r/library/flink",
+    "description": "Apache Flink® is a powerful open-source distributed stream and batch processing framework."
+  },
+  {
+    "id": "library/couchbase",
+    "name": "couchbase",
+    "slug": "couchbase",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-05-29T00:26:49.137667Z",
+    "updated_at": "2025-04-09T20:31:29.569267Z",
+    "short_description": "Couchbase Server is a NoSQL document database with a distributed architecture.",
+    "badge": "official",
+    "star_count": 925,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/couchbase/live/logo-1720462173404.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/couchbase/live/logo-1720462173404.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/couchbase",
+    "docker_hub_url": "https://hub.docker.com/r/library/couchbase",
+    "description": "Couchbase Server is a NoSQL document database with a distributed architecture."
+  },
+  {
+    "id": "library/joomla",
+    "name": "joomla",
+    "slug": "joomla",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-08-04T18:39:08.087783Z",
+    "updated_at": "2025-04-11T22:48:34.87698Z",
+    "short_description": "Joomla! is an open source content management system.",
+    "badge": "official",
+    "star_count": 462,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/joomla/live/logo-1720462215828.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/joomla/live/logo-1720462215828.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "content-management-system",
+        "name": "Content Management System"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/joomla",
+    "docker_hub_url": "https://hub.docker.com/r/library/joomla",
+    "description": "Joomla! is an open source content management system."
+  },
+  {
+    "id": "library/swarm",
+    "name": "swarm",
+    "slug": "swarm",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-02-04T23:52:14.40155Z",
+    "updated_at": "2020-09-16T20:31:01.272132Z",
+    "short_description": "DEPRECATED; use \"docker swarm init\" instead",
+    "badge": "official",
+    "star_count": 1126,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm",
+      "small": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/swarm",
+    "docker_hub_url": "https://hub.docker.com/r/library/swarm",
+    "description": "DEPRECATED; use \"docker swarm init\" instead"
+  },
+  {
+    "id": "library/groovy",
+    "name": "groovy",
+    "slug": "groovy",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-02-28T21:55:51.349829Z",
+    "updated_at": "2025-04-09T17:21:27.967473Z",
+    "short_description": "Apache Groovy is a multi-faceted language for the Java platform.",
+    "badge": "official",
+    "star_count": 157,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/groovy/live/logo-1720462204707.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/groovy/live/logo-1720462204707.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/groovy",
+    "docker_hub_url": "https://hub.docker.com/r/library/groovy",
+    "description": "Apache Groovy is a multi-faceted language for the Java platform."
+  },
+  {
+    "id": "library/rethinkdb",
+    "name": "rethinkdb",
+    "slug": "rethinkdb",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-01-13T20:14:11.543629Z",
+    "updated_at": "2025-04-08T10:06:05.73588Z",
+    "short_description": "RethinkDB is an open-source, document database that makes it easy to build and scale realtime apps.",
+    "badge": "official",
+    "star_count": 635,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rethinkdb/live/logo-1720462266065.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rethinkdb/live/logo-1720462266065.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/rethinkdb",
+    "docker_hub_url": "https://hub.docker.com/r/library/rethinkdb",
+    "description": "RethinkDB is an open-source, document database that makes it easy to build and scale realtime apps."
+  },
+  {
+    "id": "library/rocket.chat",
+    "name": "rocket.chat",
+    "slug": "rocket.chat",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-08-13T16:38:43.124501Z",
+    "updated_at": "2025-04-09T19:42:25.142989Z",
+    "short_description": "The Complete Open Source Chat Solution",
+    "badge": "official",
+    "star_count": 839,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rocket.chat/live/logo-1744240267834.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rocket.chat/live/logo-1744240267834.png"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/rocketchat"
+  },
+  {
+    "id": "library/phpmyadmin",
+    "name": "phpmyadmin",
+    "slug": "phpmyadmin",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2020-08-27T00:39:57.666261Z",
+    "updated_at": "2025-04-08T23:40:51.119011Z",
+    "short_description": "phpMyAdmin - A web interface for MySQL and MariaDB.",
+    "badge": "official",
+    "star_count": 1089,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/phpmyadmin/live/logo-1720462254543.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/phpmyadmin/live/logo-1720462254543.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      },
+      {
+        "slug": "developer-tools",
+        "name": "Developer Tools"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/phpmyadmin",
+    "docker_hub_url": "https://hub.docker.com/r/library/phpmyadmin",
+    "description": "phpMyAdmin - A web interface for MySQL and MariaDB."
+  },
+  {
+    "id": "library/redmine",
+    "name": "redmine",
+    "slug": "redmine",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-08-07T01:00:57.806136Z",
+    "updated_at": "2025-04-10T07:50:09.662585Z",
+    "short_description": "Redmine is a flexible project management web application written using Ruby on Rails framework",
+    "badge": "official",
+    "star_count": 1230,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/redmine/live/logo-1720462263977.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/redmine/live/logo-1720462263977.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "content-management-system",
+        "name": "Content Management System"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/redmine",
+    "docker_hub_url": "https://hub.docker.com/r/library/redmine",
+    "description": "Redmine is a flexible project management web application written using Ruby on Rails framework"
+  },
+  {
+    "id": "library/erlang",
+    "name": "erlang",
+    "slug": "erlang",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-11-11T17:41:39.298973Z",
+    "updated_at": "2025-04-10T19:48:18.417819Z",
+    "short_description": "Erlang is a programming language used to build massively scalable systems with high availability.",
+    "badge": "official",
+    "star_count": 374,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/erlang/live/logo-1720462191837.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/erlang/live/logo-1720462191837.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/erlang",
+    "docker_hub_url": "https://hub.docker.com/r/library/erlang",
+    "description": "Erlang is a programming language used to build massively scalable systems with high availability."
+  },
+  {
+    "id": "library/elixir",
+    "name": "elixir",
+    "slug": "elixir",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-03-04T18:13:49.837627Z",
+    "updated_at": "2025-04-10T18:47:39.950657Z",
+    "short_description": "Elixir is a dynamic, functional language for building scalable and maintainable applications.",
+    "badge": "official",
+    "star_count": 571,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/elixir/live/logo-1720462186993.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/elixir/live/logo-1720462186993.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/elixir",
+    "docker_hub_url": "https://hub.docker.com/r/library/elixir",
+    "description": "Elixir is a dynamic, functional language for building scalable and maintainable applications."
+  },
+  {
+    "id": "library/kapacitor",
+    "name": "kapacitor",
+    "slug": "kapacitor",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2016-05-12T16:49:41.090806Z",
+    "updated_at": "2025-04-09T16:21:22.863706Z",
+    "short_description": "Kapacitor is an open source framework for processing, monitoring, and alerting on time series data.",
+    "badge": "official",
+    "star_count": 264,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/kapacitor/live/logo-1720462219331.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/kapacitor/live/logo-1720462219331.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "monitoring-and-observability",
+        "name": "Monitoring & Observability"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/kapacitor",
+    "docker_hub_url": "https://hub.docker.com/r/library/kapacitor",
+    "description": "Kapacitor is an open source framework for processing, monitoring, and alerting on time series data."
+  },
+  {
+    "id": "library/owncloud",
+    "name": "owncloud",
+    "slug": "owncloud",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-07-23T23:43:48.470079Z",
+    "updated_at": "2018-12-31T20:49:57.8066Z",
+    "short_description": "DEPRECATED; use \"owncloud/server\" instead",
+    "badge": "official",
+    "star_count": 1393,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm",
+      "small": "https://www.gravatar.com/avatar/7510e100f7ebeca4a0b8c3c617349295?s=80&r=g&d=mm"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/owncloud",
+    "docker_hub_url": "https://hub.docker.com/r/library/owncloud",
+    "description": "DEPRECATED; use \"owncloud/server\" instead"
+  },
+  {
+    "id": "library/jruby",
+    "name": "jruby",
+    "slug": "jruby",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-09-24T15:32:51.614863Z",
+    "updated_at": "2025-04-09T18:59:39.256912Z",
+    "short_description": "JRuby (http://www.jruby.org) is an implementation of Ruby (http://www.ruby-lang.org) on the JVM.",
+    "badge": "official",
+    "star_count": 118,
+    "pull_count": "50M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/jruby/live/logo-1720462217045.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/jruby/live/logo-1720462217045.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/jruby",
+    "docker_hub_url": "https://hub.docker.com/r/library/jruby",
+    "description": "JRuby (http://www.jruby.org) is an implementation of Ruby (http://www.ruby-lang.org) on the JVM."
+  },
+  {
+    "id": "library/mediawiki",
+    "name": "mediawiki",
+    "slug": "mediawiki",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-08-24T18:18:39.100699Z",
+    "updated_at": "2025-04-10T21:19:49.599602Z",
+    "short_description": "MediaWiki is a free software open source wiki package written in PHP.",
+    "badge": "official",
+    "star_count": 581,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mediawiki/live/logo-1720462231938.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mediawiki/live/logo-1720462231938.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "content-management-system",
+        "name": "Content Management System"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/mediawiki",
+    "docker_hub_url": "https://hub.docker.com/r/library/mediawiki",
+    "description": "MediaWiki is a free software open source wiki package written in PHP."
+  },
+  {
+    "id": "library/odoo",
+    "name": "odoo",
+    "slug": "odoo",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-01-06T22:01:34.747953Z",
+    "updated_at": "2025-04-09T10:12:25.988083Z",
+    "short_description": "Odoo (formerly known as OpenERP) is a suite of open-source business apps.",
+    "badge": "official",
+    "star_count": 1430,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/odoo/live/logo-1720462245016.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/odoo/live/logo-1720462245016.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "content-management-system",
+        "name": "Content Management System"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/odoo",
+    "docker_hub_url": "https://hub.docker.com/r/library/odoo",
+    "description": "Odoo (formerly known as OpenERP) is a suite of open-source business apps."
+  },
+  {
+    "id": "library/mono",
+    "name": "mono",
+    "slug": "mono",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-10-30T20:32:30.96305Z",
+    "updated_at": "2024-06-21T19:24:02.791615Z",
+    "short_description": "DEPRECATED; Mono is an open source implementation of Microsoft's .NET Framework",
+    "badge": "official",
+    "star_count": 523,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mono/live/logo-1720462236547.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/mono/live/logo-1720462236547.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/mono",
+    "docker_hub_url": "https://hub.docker.com/r/library/mono",
+    "description": "DEPRECATED; Mono is an open source implementation of Microsoft's .NET Framework"
+  },
+  {
+    "id": "library/pypy",
+    "name": "pypy",
+    "slug": "pypy",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-12-20T00:04:17.922613Z",
+    "updated_at": "2025-04-11T00:40:34.572437Z",
+    "short_description": "PyPy is a fast, compliant alternative implementation of the Python language.",
+    "badge": "official",
+    "star_count": 395,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/pypy/live/logo-1720462258791.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/pypy/live/logo-1720462258791.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/pypy",
+    "docker_hub_url": "https://hub.docker.com/r/library/pypy",
+    "description": "PyPy is a fast, compliant alternative implementation of the Python language."
+  },
+  {
+    "id": "library/jetty",
+    "name": "jetty",
+    "slug": "jetty",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-02-09T20:10:40.435907Z",
+    "updated_at": "2025-04-10T02:17:11.955686Z",
+    "short_description": "Jetty provides a Web server and javax.servlet container.",
+    "badge": "official",
+    "star_count": 410,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/jetty/live/logo-1720462214540.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/jetty/live/logo-1720462214540.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "web-servers",
+        "name": "Web Servers"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/jetty",
+    "docker_hub_url": "https://hub.docker.com/r/library/jetty",
+    "description": "Jetty provides a Web server and javax.servlet container."
+  },
+  {
+    "id": "library/clojure",
+    "name": "clojure",
+    "slug": "clojure",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-08-25T14:56:27.655111Z",
+    "updated_at": "2025-04-09T18:40:22.644965Z",
+    "short_description": "Clojure is a dialect of Lisp that runs on the JVM.",
+    "badge": "official",
+    "star_count": 362,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/clojure/live/logo-1720462166362.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/clojure/live/logo-1720462166362.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/clojure",
+    "docker_hub_url": "https://hub.docker.com/r/library/clojure",
+    "description": "Clojure is a dialect of Lisp that runs on the JVM."
+  },
+  {
+    "id": "library/oraclelinux",
+    "name": "oraclelinux",
+    "slug": "oraclelinux",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-01-02T00:28:42.700254Z",
+    "updated_at": "2025-04-04T21:36:18.097Z",
+    "short_description": "Official Docker builds of Oracle Linux.",
+    "badge": "official",
+    "star_count": 1091,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/oraclelinux/live/logo-1720462247561.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/oraclelinux/live/logo-1720462247561.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/oraclelinux",
+    "docker_hub_url": "https://hub.docker.com/r/library/oraclelinux",
+    "description": "Official Docker builds of Oracle Linux."
+  },
+  {
+    "id": "library/arangodb",
+    "name": "arangodb",
+    "slug": "arangodb",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-07-14T20:30:29.392344Z",
+    "updated_at": "2025-02-15T07:13:12.66948Z",
+    "short_description": "ArangoDB - a scalable graph database system to drive value from connected data, faster.",
+    "badge": "official",
+    "star_count": 291,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/arangodb/live/logo-1720462152872.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/arangodb/live/logo-1720462152872.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "databases-and-storage",
+        "name": "Databases & Storage"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/arangodb",
+    "docker_hub_url": "https://hub.docker.com/r/library/arangodb",
+    "description": "ArangoDB - a scalable graph database system to drive value from connected data, faster."
+  },
+  {
+    "id": "library/rockylinux",
+    "name": "rockylinux",
+    "slug": "rockylinux",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2021-12-15T19:29:35.292988Z",
+    "updated_at": "2024-05-30T05:16:49.23459Z",
+    "short_description": "The official build of Rocky Linux.",
+    "badge": "official",
+    "star_count": 290,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rockylinux/live/logo.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/rockylinux/live/logo.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/rockylinux",
+    "docker_hub_url": "https://hub.docker.com/r/library/rockylinux",
+    "description": "The official build of Rocky Linux."
+  },
+  {
+    "id": "library/xwiki",
+    "name": "xwiki",
+    "slug": "xwiki",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-02-08T23:29:51.480221Z",
+    "updated_at": "2025-04-10T06:08:03.119012Z",
+    "short_description": "XWiki: The Advanced Open Source Enterprise Wiki.",
+    "badge": "official",
+    "star_count": 309,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/xwiki/live/logo-1738163462340.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/xwiki/live/logo-1738163462340.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "content-management-system",
+        "name": "Content Management System"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/xwiki",
+    "docker_hub_url": "https://hub.docker.com/r/library/xwiki",
+    "description": "XWiki: The Advanced Open Source Enterprise Wiki."
+  },
+  {
+    "id": "library/ros",
+    "name": "ros",
+    "slug": "ros",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2015-06-03T03:02:09.370435Z",
+    "updated_at": "2025-04-09T22:17:43.828506Z",
+    "short_description": "The Robot Operating System (ROS) is an open source project for building robot applications.",
+    "badge": "official",
+    "star_count": 681,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/ros/live/logo-1720559401902.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/ros/live/logo-1720559401902.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/ros",
+    "docker_hub_url": "https://hub.docker.com/r/library/ros",
+    "description": "The Robot Operating System (ROS) is an open source project for building robot applications."
+  },
+  {
+    "id": "library/archlinux",
+    "name": "archlinux",
+    "slug": "archlinux",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2019-10-15T01:48:17.387086Z",
+    "updated_at": "2025-04-07T19:48:21.413503Z",
+    "short_description": "Arch Linux is a simple, lightweight Linux distribution aimed for flexibility.",
+    "badge": "official",
+    "star_count": 618,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/archlinux/live/logo-1720462154583.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/archlinux/live/logo-1720462154583.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "operating-systems",
+        "name": "Operating Systems"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/archlinux",
+    "docker_hub_url": "https://hub.docker.com/r/library/archlinux",
+    "description": "Arch Linux is a simple, lightweight Linux distribution aimed for flexibility."
+  },
+  {
+    "id": "library/znc",
+    "name": "znc",
+    "slug": "znc",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-03-01T00:53:12.998584Z",
+    "updated_at": "2025-02-15T10:35:15.840262Z",
+    "short_description": "ZNC - An advanced IRC bouncer",
+    "badge": "official",
+    "star_count": 117,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/znc/live/logo.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/znc/live/logo.png"
+    },
+    "extension_reviewed": false,
+    "categories": [],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/znc",
+    "docker_hub_url": "https://hub.docker.com/r/library/znc",
+    "description": "ZNC - An advanced IRC bouncer"
+  },
+  {
+    "id": "library/swift",
+    "name": "swift",
+    "slug": "swift",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-01-21T16:49:27.613593Z",
+    "updated_at": "2025-04-09T19:48:08.102937Z",
+    "short_description": "Swift is a high-performance system programming language, to learn more about Swift visit swift.org.",
+    "badge": "official",
+    "star_count": 719,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/swift/live/logo-1720462296617.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/swift/live/logo-1720462296617.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/swift",
+    "docker_hub_url": "https://hub.docker.com/r/library/swift",
+    "description": "Swift is a high-performance system programming language, to learn more about Swift visit swift.org."
+  },
+  {
+    "id": "library/hylang",
+    "name": "hylang",
+    "slug": "hylang",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-07-11T22:05:13Z",
+    "updated_at": "2025-04-10T23:20:23.842539Z",
+    "short_description": "Hy is a Lisp dialect that translates expressions into Python's abstract syntax tree.",
+    "badge": "official",
+    "star_count": 60,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "",
+        "label": ""
+      }
+    ],
+    "architectures": [
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "mips64le",
+        "label": "mips64le"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "riscv64",
+        "label": "riscv64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "386",
+        "label": "386"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/hylang/live/logo-1720462210842.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/hylang/live/logo-1720462210842.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/hylang",
+    "docker_hub_url": "https://hub.docker.com/r/library/hylang",
+    "description": "Hy is a Lisp dialect that translates expressions into Python's abstract syntax tree."
+  },
+  {
+    "id": "library/gcc",
+    "name": "gcc",
+    "slug": "gcc",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2014-07-21T10:38:35.239943Z",
+    "updated_at": "2025-04-09T03:18:25.333388Z",
+    "short_description": "The GNU Compiler Collection is a compiling system that supports several languages.",
+    "badge": "official",
+    "star_count": 877,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "",
+        "label": ""
+      },
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "unknown",
+        "label": "unknown"
+      },
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "ppc64le",
+        "label": "ppc64le"
+      },
+      {
+        "name": "s390x",
+        "label": "IBM Z"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/gcc/live/logo-1720462199181.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/gcc/live/logo-1720462199181.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/gcc",
+    "docker_hub_url": "https://hub.docker.com/r/library/gcc",
+    "description": "The GNU Compiler Collection is a compiling system that supports several languages."
+  },
+  {
+    "id": "library/haxe",
+    "name": "haxe",
+    "slug": "haxe",
+    "type": "image",
+    "publisher": {
+      "id": "33ef574274c011e4bea40242ac11001b",
+      "name": "library"
+    },
+    "created_at": "2017-01-23T19:31:18.863383Z",
+    "updated_at": "2025-04-10T21:23:59.015033Z",
+    "short_description": "Haxe is a modern, high level, static typed programming language with multiple compilation targets.",
+    "badge": "official",
+    "star_count": 62,
+    "pull_count": "10M+",
+    "operating_systems": [
+      {
+        "name": "linux",
+        "label": "Linux"
+      },
+      {
+        "name": "windows",
+        "label": "Windows"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "architectures": [
+      {
+        "name": "amd64",
+        "label": "x86-64"
+      },
+      {
+        "name": "arm",
+        "label": "arm"
+      },
+      {
+        "name": "arm64",
+        "label": "arm64"
+      },
+      {
+        "name": "unknown",
+        "label": "unknown"
+      }
+    ],
+    "logo_url": {
+      "large": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/haxe/live/logo-1720462207957.png",
+      "small": "https://djeqr6to3dedg.cloudfront.net/repo-logos/library/haxe/live/logo-1720462207957.png"
+    },
+    "extension_reviewed": false,
+    "categories": [
+      {
+        "slug": "languages-and-frameworks",
+        "name": "Languages & Frameworks"
+      }
+    ],
+    "archived": false,
+    "icon_url": "https://cdn.simpleicons.org/haxe",
+    "docker_hub_url": "https://hub.docker.com/r/library/haxe",
+    "description": "Haxe is a modern, high level, static typed programming language with multiple compilation targets."
+  }
+]
