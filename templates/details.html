@@ -2,16 +2,49 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ app.name }} - Docker App Store</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>{{ app.name }} - Detalhes</title>
     <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.css">
+    <style>
+        .install-script {
+            background-color: #1b1b1b;
+            color: #00ffae;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        .app-logo {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+        }
+    </style>
+    <script>
+        function copiarScript() {
+            const texto = document.getElementById('script').innerText;
+            navigator.clipboard.writeText(texto).then(() => {
+                alert("Script copiado!");
+            });
+        }
+    </script>
 </head>
-<body>
-    <h1>{{ app.name }}</h1>
-    <p>{{ app.description }}</p>
-    <h2>Comando para execução Docker</h2>
-    <pre>{{ install_script }}</pre>
-    <a href="/">Voltar para a loja</a>
+<body class="container py-4">
+    <a href="{{ url_for('index') }}" class="btn btn-secondary mb-3">← Voltar</a>
+    
+    <div class="card bg-dark text-light">
+        <div class="card-body d-flex align-items-start">
+            {% if app.icon_url %}
+                <img src="{{ app.icon_url }}" alt="{{ app.name }} logo" class="app-logo me-4">
+            {% endif %}
+            <div>
+                <h2>{{ app.name }}</h2>
+                <p>{{ app.description }}</p>
+                <hr>
+                <h5>Script de Instalação</h5>
+                <div id="script" class="install-script mb-3">{{ install_script }}</div>
+                <button onclick="copiarScript()" class="btn btn-info">Copiar Script</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
