@@ -12,21 +12,25 @@
             border-radius: 0.5rem;
             font-family: monospace;
             white-space: pre-wrap;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .app-logo {
             width: 64px;
             height: 64px;
             object-fit: contain;
         }
-    </style>
-    <script>
-        function copiarScript() {
-            const texto = document.getElementById('script').innerText;
-            navigator.clipboard.writeText(texto).then(() => {
-                alert("Script copiado!");
-            });
+        .feedback {
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 0.875rem;
+            color: #28a745;
+            opacity: 0;
+            transition: opacity 0.3s ease;
         }
-    </script>
+        .feedback.show {
+            opacity: 1;
+        }
+    </style>
 </head>
 <body class="container py-4">
     <a href="{{ url_for('index') }}" class="btn btn-secondary mb-3">← Voltar</a>
@@ -34,17 +38,31 @@
     <div class="card bg-dark text-light">
         <div class="card-body d-flex align-items-start">
             {% if app.icon_url %}
-                <img src="{{ app.icon_url }}" alt="{{ app.name }} logo" class="app-logo me-4">
+                <img src="{{ app.icon_url }}" alt="{{ app.name }} logo" class="app-logo me-3"
+                        onerror="this.onerror=null;this.src='../static/default-icon.png';">
             {% endif %}
             <div>
                 <h2>{{ app.name }}</h2>
-                <p>{{ app.description }}</p>
-                <hr>
-                <h5>Script de Instalação</h5>
-                <div id="script" class="install-script mb-3">{{ install_script }}</div>
-                <button onclick="copiarScript()" class="btn btn-info">Copiar Script</button>
+                <p>{{ app.description or 'Descrição não disponível.' }}</p>
+                <h5>Script de Instalação do Docker</h5>
+                <div id="install-script" class="install-script mb-3">{{ install_script }}</div>
+                <button onclick="copiarScript('install-script')" class="btn btn-info" aria-label="Copiar script de instalação">Copiar Script de Instalação</button>
+                <span id="install-feedback" class="feedback">Script copiado!</span>
             </div>
         </div>
     </div>
+
+    <script>
+        function copiarScript(scriptId) {
+            const texto = document.getElementById(scriptId).innerText;
+            navigator.clipboard.writeText(texto).then(() => {
+                const feedback = document.getElementById(scriptId + '-feedback');
+                feedback.classList.add('show');
+                setTimeout(() => {
+                    feedback.classList.remove('show');
+                }, 2000);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -23,14 +23,14 @@
 </head>
 <body class="container py-4">
     <h1 class="text-center mb-4">🐳 Docker App Store</h1>
-
-    <div class="row">
+    <div class="row" id="apps-row">
         {% for app in apps %}
         <div class="col-md-6">
             <div class="card bg-dark text-light border-secondary mb-4">
                 <div class="card-body d-flex align-items-start">
                     {% if app.icon_url %}
-                        <img src="{{ app.icon_url }}" alt="{{ app.name }} logo" class="app-logo me-3">
+                        <img src="{{ app.icon_url }}" alt="{{ app.name }} logo" class="app-logo me-3"
+                             onerror="this.onerror=null;this.src='../static/default-icon.png';">
                     {% endif %}
                     <div>
                         <h5 class="card-title">
@@ -39,7 +39,7 @@
                             </a>
                         </h5>
                         <p>{{ app.description }}</p>
-                        <p><strong>Script de Instalação:</strong></p>
+                        <p><strong>Install Script:</strong></p>
                         <div class="install-script">{{ app.install_script }}</div>
                     </div>
                 </div>
@@ -47,5 +47,51 @@
         </div>
         {% endfor %}
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Keep track of the number of apps currently displayed
+        let currentAppCount = {{ apps|length }};
+        
+        // Function to add new apps dynamically to the page
+        function addNewApps(newApps) {
+            newApps.forEach(app => {
+                const appElement = `
+                    <div class="col-md-6">
+                        <div class="card bg-dark text-light border-secondary mb-4">
+                            <div class="card-body d-flex align-items-start">
+                                ${app.icon_url ? `<img src="${app.icon_url}" alt="${app.name} logo" class="app-logo me-3" onerror="this.onerror=null;this.src='/static/default-icon.png';">` : ''}
+                                <div>
+                                    <h5 class="card-title">
+                                        <a href="/app/${app.name}" class="text-info text-decoration-none">${app.name}</a>
+                                    </h5>
+                                    <p>${app.description}</p>
+                                    <p><strong>Install Script:</strong></p>
+                                    <div class="install-script">${app.install_script}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                $("#apps-row").append(appElement);
+            });
+        }
+
+        // Function to fetch new apps every 60 seconds
+        function fetchNewApps() {
+            $.get('/fetch_new_apps', function(data) {
+                if (data && data.length > currentAppCount) {
+                    const newApps = data.slice(currentAppCount);
+                    addNewApps(newApps);
+                    currentAppCount = data.length;
+                }
+            }).fail(function() {
+                console.error('Error fetching new apps.');
+            });
+        }
+
+        // Poll for new apps every 60 seconds
+        setInterval(fetchNewApps, 60000);
+    </script>
 </body>
 </html>
