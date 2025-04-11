@@ -1,0 +1,63 @@
+{
+    "media_servers": [
+      { "name": "Plex", "description": "Media server for organizing video, music, and photos." },
+      { "name": "Jellyfin", "description": "Open-source media server for video streaming." }
+    ],
+    "cloud_storage_file_sharing": [
+      { "name": "Nextcloud", "description": "Personal cloud storage and file sharing." },
+      { "name": "Syncthing", "description": "Peer-to-peer file synchronization." }
+    ],
+    "home_automation_iot": [
+      { "name": "Home Assistant", "description": "Open-source home automation platform." },
+      { "name": "MQTT Broker (Mosquitto)", "description": "MQTT messaging protocol broker for IoT devices." }
+    ],
+    "security_surveillance": [
+      { "name": "MotionEye", "description": "CCTV camera surveillance and monitoring system." },
+      { "name": "Pi-hole", "description": "Network-wide ad blocker." }
+    ],
+    "backup_restore": [
+      { "name": "Duplicati", "description": "Backup software with encrypted backups to cloud storage." },
+      { "name": "Restic", "description": "Fast and secure backup software." }
+    ],
+    "vpn_tools": [
+      { "name": "OpenVPN", "description": "VPN service for secure network access." },
+      { "name": "WireGuard", "description": "High-performance VPN." }
+    ],
+    "docker_management": [
+      { "name": "Portainer", "description": "Easy UI to manage Docker containers." },
+      { "name": "Watchtower", "description": "Automatically update running Docker containers." }
+    ],
+    "web_servers": [
+      { "name": "Nginx", "description": "High-performance web server and reverse proxy." },
+      { "name": "Caddy", "description": "Web server with automatic HTTPS." }
+    ],
+    "databases": [
+      { "name": "MySQL", "description": "Popular relational database." },
+      { "name": "PostgreSQL", "description": "Advanced open-source relational database." }
+    ],
+    "communication_tools": [
+      { "name": "Rocket.Chat", "description": "Open-source team communication platform." },
+      { "name": "Jitsi Meet", "description": "Open-source video conferencing solution." }
+    ],
+    "development_tools": [
+      { "name": "Jenkins", "description": "Automation server for continuous integration." },
+      { "name": "GitLab", "description": "Git repository manager with CI/CD support." }
+    ],
+    "game_servers": [
+      { "name": "Minecraft", "description": "Popular sandbox game server." },
+      { "name": "CS:GO", "description": "Counter-Strike: Global Offensive server." }
+    ],
+    "monitoring_tools": [
+      { "name": "Prometheus", "description": "Monitoring and alerting toolkit." },
+      { "name": "Grafana", "description": "Open-source platform for monitoring and visualization." }
+    ],
+    "privacy_tools": [
+      { "name": "Bitwarden", "description": "Open-source password manager." },
+      { "name": "CryptPad", "description": "Secure collaborative office suite." }
+    ],
+    "file_management": [
+      { "name": "FileRun", "description": "Self-hosted file manager." },
+      { "name": "Rclone", "description": "Command-line program to manage files on cloud storage." }
+    ]
+  }
+  

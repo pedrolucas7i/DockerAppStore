@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ app.name }} - Docker App Store</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.css">
+</head>
+<body>
+    <h1>{{ app.name }}</h1>
+    <p>{{ app.description }}</p>
+    <h2>Comando para execução Docker</h2>
+    <pre>{{ install_script }}</pre>
+    <a href="/">Voltar para a loja</a>
+</body>
+</html>
