@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, request
 import requests
 import threading
 import time
@@ -126,6 +126,23 @@ def update_apps_route():
         return jsonify({"message": "Update already in progress. Please wait."}), 400
     threading.Thread(target=update_apps_in_background, daemon=True).start()
     return jsonify({"message": "Update started!"}), 202
+
+@app.route('/search', methods=['GET'])
+def search():
+    search_value = request.args.get('search-value', '').strip().lower()
+    apps = []
+
+    for app in load_apps():
+        if app['name'].lower().startswith(search_value):
+            port = get_app_port(app['name'])
+            apps.append({
+                'name': app['name'],
+                'description': app['description'],
+                'install_script': generate_install_script(app['name'], port),
+                'icon_url': app.get("icon_url")
+            })
+
+    return render_template('index.html', apps=apps)
 
 # Endpoint to fetch apps for dynamic update in the UI
 @app.route('/fetch_new_apps')

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, request
 import json
 import os
 import socket
@@ -86,6 +86,23 @@ def app_details(app_name):
 @app.route('/fetch_new_apps')
 def fetch_new_apps():
     return jsonify(load_offline_apps())
+
+@app.route('/search', methods=['GET'])
+def search():
+    search_value = request.args.get('search-value', '').strip().lower()
+    apps = []
+
+    for app in load_offline_apps():
+        if app['name'].lower().startswith(search_value):
+            port = get_app_port(app['name'])
+            apps.append({
+                'name': app['name'],
+                'description': app['description'],
+                'install_script': generate_install_script(app['name'], port),
+                'icon_url': app.get("icon_url")
+            })
+
+    return render_template('index.html', apps=apps)
 
 if __name__ == '__main__':
     app.run(debug=True)

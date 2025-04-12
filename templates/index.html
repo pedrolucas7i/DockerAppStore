@@ -23,6 +23,15 @@
 </head>
 <body class="container py-4">
     <h1 class="text-center mb-4">🐳 Docker App Store</h1>
+
+    <!-- Barra de Pesquisa -->
+    <form class="mb-4" method="get" action="/search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search docker app..." name="search-value">
+            <button class="btn btn-info" type="submit">Pesquisar</button>
+        </div>
+    </form>
+
     <div class="row" id="apps-row">
         {% for app in apps %}
         <div class="col-md-6">
