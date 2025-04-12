@@ -3,6 +3,7 @@ import requests
 import threading
 import time
 import socket
+import subprocess
 
 app = Flask(__name__)
 
@@ -38,7 +39,7 @@ def fetch_all_official_apps():
                 # Use keys available in the API response; adjust if necessary.
                 app_name = item.get("name", "unknown")
                 # Some API responses might not include a description.
-                app_description = item.get("description", "No description provided.")
+                app_description = item.get("short_description", "No description provided.")
                 app_data = {
                     "name": app_name,
                     "description": app_description,
@@ -97,6 +98,22 @@ def get_app_port(app_name):
         app_ports[app_name] = generate_unique_port()
     return app_ports[app_name]
 
+# Function to install the app using Docker and subprocess
+def install_app(app_name, app_port):
+    try:
+        command = ["docker", "run", "-d", "-p", f"{app_port}:80", "--name", app_name, app_name]
+        result = subprocess.run(command, capture_output=True, text=True, check=True)
+        return {
+            "success": True,
+            "output": result.stdout.strip()
+        }
+    except subprocess.CalledProcessError as e:
+        return {
+            "success": False,
+            "error": e.stderr.strip()
+        }
+
+
 @app.route('/')
 def index():
     apps = []
@@ -116,7 +133,7 @@ def app_details(app_name):
         if app['name'].lower() == app_name.lower():
             port = get_app_port(app['name'])
             script = generate_install_script(app['name'], port)
-            return render_template('details.html', app=app, install_script=script)
+            return render_template('details.html', app=app, port=port, install_script=script)
     return "App not found!", 404
 
 @app.route('/update_apps')
@@ -126,6 +143,11 @@ def update_apps_route():
         return jsonify({"message": "Update already in progress. Please wait."}), 400
     threading.Thread(target=update_apps_in_background, daemon=True).start()
     return jsonify({"message": "Update started!"}), 202
+
+# Endpoint to fetch apps for dynamic update in the UI
+@app.route('/fetch_new_apps')
+def fetch_new_apps():
+    return jsonify(load_apps())
 
 @app.route('/search', methods=['GET'])
 def search():
@@ -144,10 +166,38 @@ def search():
 
     return render_template('index.html', apps=apps)
 
-# Endpoint to fetch apps for dynamic update in the UI
-@app.route('/fetch_new_apps')
-def fetch_new_apps():
-    return jsonify(load_apps())
+# Route to install a selected Docker app via subprocess
+@app.route('/install/<app_name>', methods=['POST'])
+def install_app_route(app_name):
+    try:
+        # Iterate through the cached apps and check if the app exists
+        for app in load_apps():
+            if app['name'].lower() == app_name.lower():
+                # Get the unique port for the app
+                port = get_app_port(app['name'])
+
+                # Generate the Docker installation command
+                command = ["docker", "run", "-d", "-p", f"{port}:80", "--name", app_name, app_name]
+
+                # Run the command using subprocess to install the app
+                result = subprocess.run(command, capture_output=True, text=True, check=True)
+
+                # If the installation is successful, return the output
+                return jsonify({"success": True, "output": result.stdout.strip()})
+
+        # If the app is not found in the list of apps
+        return jsonify({"success": False, "error": "App not found!"}), 404
+
+    except subprocess.CalledProcessError as e:
+        # Handle errors from the subprocess (Docker command failure)
+        return jsonify({"success": False, "error": e.stderr.strip()})
+
+    except Exception as e:
+        # General exception handling for any other issues
+        return jsonify({"success": False, "error": str(e)})
+
+
+            
 
 if __name__ == '__main__':
     app.run(debug=True)

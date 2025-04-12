@@ -30,11 +30,22 @@
         .feedback.show {
             opacity: 1;
         }
+        .url-link {
+            font-size: 1rem;
+            margin-top: 1rem;
+            display: block;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .url-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body class="container py-4">
-    <a href="{{ url_for('index') }}" class="btn btn-secondary mb-3">← Voltar</a>
-    
+    <!-- Back button to return to the main page -->
+    <a href="{{ url_for('index') }}" class="btn btn-secondary mb-3">← Back</a>
+
     <div class="card bg-dark text-light">
         <div class="card-body d-flex align-items-start">
             {% if app.icon_url %}
@@ -43,16 +54,31 @@
             {% endif %}
             <div>
                 <h2>{{ app.name }}</h2>
-                <p>{{ app.description or 'Descrição não disponível.' }}</p>
-                <h5>Script de Instalação do Docker</h5>
+                <p>{{ app.description or 'Description not available.' }}</p>
+
+                <h5>Docker Installation Script</h5>
                 <div id="install-script" class="install-script mb-3">{{ install_script }}</div>
-                <button onclick="copiarScript('install-script')" class="btn btn-info" aria-label="Copiar script de instalação">Copiar Script de Instalação</button>
-                <span id="install-feedback" class="feedback">Script copiado!</span>
+
+                <!-- Button to copy the installation script to the clipboard -->
+                <button onclick="copiarScript('install-script')" class="btn btn-info me-2" aria-label="Copy installation script">
+                    Copy Installation Script
+                </button>
+                <!-- Button to trigger the installation -->
+                <button id="install-button" class="btn btn-success me-2">Install Application</button>
+                <!-- Feedback after copying the script -->
+                <span id="install-script-feedback" class="feedback">Script copied!</span>
+                <span id="install-result" class="feedback"></span>
+                <hr>
+                <!-- Added a URL link to view the application page -->
+                <a href='http://localhost:{{ port }}' class="url-link" target="_blank">
+                    View the Docker Web App after Installation
+                </a>
             </div>
         </div>
     </div>
 
     <script>
+        // Function to copy the installation script to clipboard
         function copiarScript(scriptId) {
             const texto = document.getElementById(scriptId).innerText;
             navigator.clipboard.writeText(texto).then(() => {
@@ -63,6 +89,46 @@
                 }, 2000);
             });
         }
+
+        // Event listener for the "Install Application" button
+        document.getElementById("install-button").addEventListener("click", function () {
+            const installButton = document.getElementById("install-button");
+            const resultSpan = document.getElementById("install-result");
+            
+            // Show "Installing..." while the installation process is running
+            installButton.textContent = "Installing..."; 
+            installButton.disabled = true; // Disable the button during installation
+
+            fetch(`/install/{{ app.name }}`, {
+                method: "POST"
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    resultSpan.textContent = "Application installed successfully!";
+                    resultSpan.style.color = "#28a745"; // Green color for success
+                } else {
+                    resultSpan.textContent = "Error: " + data.error;
+                    resultSpan.style.color = "#dc3545"; // Red color for error
+                }
+                resultSpan.classList.add("show");
+                setTimeout(() => resultSpan.classList.remove("show"), 4000);
+
+                // Restore the button text after completion
+                installButton.textContent = "Install Application";
+                installButton.disabled = false; // Enable the button again
+            })
+            .catch(error => {
+                resultSpan.textContent = "Unexpected error: " + error;
+                resultSpan.style.color = "#dc3545"; // Red color for error
+                resultSpan.classList.add("show");
+                setTimeout(() => resultSpan.classList.remove("show"), 4000);
+
+                // Restore the button text after an error
+                installButton.textContent = "Install Application";
+                installButton.disabled = false; // Enable the button again
+            });
+        });
     </script>
 </body>
 </html>

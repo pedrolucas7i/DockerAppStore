@@ -3,6 +3,7 @@ import json
 import os
 import socket
 import threading
+import subprocess
 
 app = Flask(__name__)
 
@@ -103,6 +104,36 @@ def search():
             })
 
     return render_template('index.html', apps=apps)
+
+# Route to install a selected Docker app via subprocess
+@app.route('/install/<app_name>', methods=['POST'])
+def install_app_route(app_name):
+    try:
+        # Iterate through the cached apps and check if the app exists
+        for app in load_offline_apps():
+            if app['name'].lower() == app_name.lower():
+                # Get the unique port for the app
+                port = get_app_port(app['name'])
+
+                # Generate the Docker installation command
+                command = ["docker", "run", "-d", "-p", f"{port}:80", "--name", app_name, app_name]
+
+                # Run the command using subprocess to install the app
+                result = subprocess.run(command, capture_output=True, text=True, check=True)
+
+                # If the installation is successful, return the output
+                return jsonify({"success": True, "output": result.stdout.strip()})
+
+        # If the app is not found in the list of apps
+        return jsonify({"success": False, "error": "App not found!"}), 404
+
+    except subprocess.CalledProcessError as e:
+        # Handle errors from the subprocess (Docker command failure)
+        return jsonify({"success": False, "error": e.stderr.strip()})
+
+    except Exception as e:
+        # General exception handling for any other issues
+        return jsonify({"success": False, "error": str(e)})
 
 if __name__ == '__main__':
     app.run(debug=True)
