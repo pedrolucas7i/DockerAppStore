@@ -13,6 +13,7 @@ A Flask-based web application that allows users to explore official Docker Hub i
   - **Online Mode**: Fetches live data from Docker Hub API
   - **Offline Mode**: Uses local JSON file for offline availability
 - Lightweight UI using HTML templates
+- Caching and background updating (in online mode)
 
 ---
 
